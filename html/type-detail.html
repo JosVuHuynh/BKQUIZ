@@ -16,8 +16,8 @@
 		<div class="header">
 			<nav class="navbar navbar-expand-lg" > 
 			    <a class="navbar-brand" href="#">
-			    	<img src="../images/2.jpg" class="rounded-circle" alt="Cinque Terre" height="50px" width="75px">
-			        <span style="color:blue; font-family:Tahoma">BKQUIZ</span>
+			    	<img src="../images/logo.png" class="rounded-circle" alt="Cinque Terre" >
+			        
 			    </a>
 			    
 			    <nav aria-label="breadcrumb" class="mr-auto ml-5 mt-1">
@@ -26,29 +26,22 @@
 					      <a class="nav-link" href="#">Home</a>
 					    </li>
 					    <li class="nav-item dropdown">
-						    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Subject</a>
+						    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Category</a>
 						    <div class="dropdown-menu bg-success">
-						      <a class="dropdown-item" href="#">Lập trình web</a>
-						      <a class="dropdown-item" href="#">Mạng máy tính</a>
-						      <a class="dropdown-item" href="#">Công nghệ phần mềm</a>
+						      <a class="dropdown-item" href="#">Anime</a>
+						      <a class="dropdown-item" href="#">Music</a>
+						      <a class="dropdown-item" href="#">Game</a>
 						      <div class="dropdown-divider"></div>
 						      <a class="dropdown-item" href="#">English</a>
 						    </div>
 						</li>
-					    <li class="nav-item">
-					      <a class="nav-link" href="#">Help</a>
-					    </li> 
-					    <li class="nav-item">
-					      <a class="nav-link" href="#">Contact</a>
-					    </li>
-					    <li class="nav-item">
-					      <a class="nav-link" href="#">Login</a>
-					    </li>
-					    <button type="button" class="btn btn-secondary">Regester</button>
+					</ul>					    
 				</nav>
-	            <form class="form-inline pl-5 my-2 my-lg-0" action="">
-					<input class="form-control mr-sm-2" type="text" placeholder="Search">
-					<button class="btn btn-success" type="submit" >Search</button>
+	            <form class="form-inline pl-5 my-2 my-lg-0">		
+					<div class="nav-item">
+					    <a class="nav-link" href="#">Login</a>
+					</div>
+					<button type="button" class="btn btn-secondary">Regester</button>
 			    </form>  
 			</nav>
 			
@@ -56,7 +49,64 @@
 		
 		<!-- BEGIN BODY -->
 		<div class="body">
-			
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item"><a href="#">Category</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Anime</li>
+				</ol>
+			</nav>
+			<div class="row">
+				<div class="col-4">
+					<a class="list-group-item list-group-item-success" href="#list-item-1"><h5>Danh mục</h5></a>
+					<a class="list-group-item list-group-item-action" href="#list-item-1">Anime</a>
+					<a class="list-group-item list-group-item-action" href="#list-item-2">Music</a>
+					<a class="list-group-item list-group-item-action" href="#list-item-3">Game</a>
+					<a class="list-group-item list-group-item-action" href="#list-item-4">English</a>
+	  			</div>
+	  			<div class="col-8">
+		        	<div class="list-group-item" >
+		        		<div class="card-deck">
+							<div class="card text-center">
+								<img class="card-img-top" src="../images/anime.png" alt="Card image cap">
+								<div class="card-body">
+								    <h5 class="card-title">Anime</h5>
+								    <p class="card-text ">Multiple choice is a form of an objective assessment in which respondents are asked to select only correct answers out of the choices from a list.</p>
+								    <a href="#" class="btn btn-primary">Go to detail</a>
+							  	</div>
+							</div>
+							<div class="card text-center">
+								<img class="card-img-top" src="../images/music.png" alt="Card image cap">
+								<div class="card-body">
+								    <h5 class="card-title">Music</h5>
+								    <p class="card-text">Multiple choice is a form of an objective assessment in which respondents are asked to select only correct answers out of the choices from a list.</p>
+								    <a href="#" class="btn btn-primary">Go to detail</a>
+				                </div>
+							</div>					
+						</div>
+						<div class="card-deck">
+							<div class="card text-center">
+								<img class="card-img-top" src="../images/game.png" alt="Card image cap">
+								<div class="card-body">
+								    <h5 class="card-title">Game</h5>
+								    <p class="card-text">Multiple choice is a form of an objective assessment in which respondents are asked to select only correct answers out of the choices from a list.</p>
+								    <a href="#" class="btn btn-primary">Go to detail</a>
+							  	</div>
+							</div>
+							<div class="card text-center">
+								<img class="card-img-top" src="../images/english.png" alt="Card image cap">
+								<div class="card-body">
+								    <h5 class="card-title">English</h5>
+								    <p class="card-text">Multiple choice is a form of an objective assessment in which respondents are asked to select only correct answers out of the choices from a list.</p>
+								    <a href="#" class="btn btn-primary">Go to detail</a>
+							  	</div>
+							</div>					
+						</div>
+			        </div>
+
+			        
+		        </div>
+			</div>
 		</div>
 		
 		<!-- BEGIN FOOTER -->
