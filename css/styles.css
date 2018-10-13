@@ -1,6 +1,15 @@
 .form-inline .btn:hover{
 	background-color:#DDDDDD;
 }
+.form-inline .nav-item:hover{
+
+	background-color:#DDDDDD;
+	border-radius: 15px;
+	transition:background  0.5s;
+}
+.form-inline .nav-item a{
+	color: #FFFFFF;
+}
 .navbar{
 	background-color:#5BB06C;
 	font-weight: bold;
