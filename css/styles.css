@@ -1,0 +1,22 @@
+.form-inline .btn:hover{
+	background-color:#DDDDDD;
+}
+.navbar{
+	background-color:#5BB06C;
+	font-weight: bold;
+}
+/*.navbar-nav{
+	padding-left: 30px;
+}*/
+.navbar-nav li a{
+	color: #FFFFFF;
+	
+}
+.navbar-nav li a:hover{
+	background-color:#DDDDDD;
+	border-radius: 15px;
+	transition:background  0.5s;
+}
+.footer{
+	background-color:#5BB06C;
+}
