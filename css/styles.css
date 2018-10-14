@@ -29,3 +29,9 @@
 .footer{
 	background-color:#5BB06C;
 }
+
+.logo-bkquiz {
+	width: 50%;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
