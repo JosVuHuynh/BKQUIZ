@@ -1,6 +1,6 @@
-# BKQUIZ
+# BKQUIZ :mortar_board:
 
-## Assignment 1 - DEADLINE : Thứ 3, 16/10/2018.
+## Assignment 1 - Đề 11 - DEADLINE : Thứ 3, 16/10/2018.
 
 ### 1.Yêu cầu 
 
@@ -20,5 +20,10 @@
 * Assignment 1 : 30% tổng Assignment.
 * Mail thầy : [huuhieubk@gmail.com](https://mail.google.com/)
 
-
+### 4.Thành viên:
+1. Lê Trọnng Hiếu - 1511010.
+2. Trần Quốc Hưng - 1511414.
+3. Lê Hoàng Huy - 1511232.
+4. Trương Quốc Huy - 1511305.
+5. Vũ Văn Huynh - 1511328.
 
