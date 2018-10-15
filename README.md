@@ -21,9 +21,16 @@
 * Mail thầy : [huuhieubk@gmail.com](https://mail.google.com/)
 
 ### 4.Thành viên:
-1. Lê Trọnng Hiếu - 1511010. [2]
-2. Trần Quốc Hưng - 1511414. [5]
-3. Nguyễn Trọng Quý - 151xxx [1]
-4. Vũ Văn Huynh - 1511328. [3],[4]
+1. Lê Trọnng Hiếu - 1511010.  [2]
+2. Trần Quốc Hưng - 1511414.  [5]
+3. Nguyễn Trọng Quý - 151xxx  [1]
+4. Vũ Văn Huynh - 1511328.    [3],[4]
+
+### 5.Tasks: 
+* [1] Homepage before login. 
+* [2] Homepage after login.
+* [3] List category. 
+* [4] List type detail.
+* [5] List quiz.
 
 ## Assignment 2 - Chuẩn bị
