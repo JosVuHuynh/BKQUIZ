@@ -27,3 +27,4 @@
 4. Trương Quốc Huy - 1511305.
 5. Vũ Văn Huynh - 1511328.
 
+## Assignment 2 - Chuẩn bị
