@@ -21,10 +21,9 @@
 * Mail thầy : [huuhieubk@gmail.com](https://mail.google.com/)
 
 ### 4.Thành viên:
-1. Lê Trọnng Hiếu - 1511010.
-2. Trần Quốc Hưng - 1511414.
-3. Lê Hoàng Huy - 1511232.
-4. Trương Quốc Huy - 1511305.
-5. Vũ Văn Huynh - 1511328.
+1. Lê Trọnng Hiếu - 1511010. [2]
+2. Trần Quốc Hưng - 1511414. [5]
+3. Nguyễn Trọng Quý - 151xxx [1]
+4. Vũ Văn Huynh - 1511328. [3],[4]
 
 ## Assignment 2 - Chuẩn bị
