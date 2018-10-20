@@ -1,0 +1,49 @@
+.form-inline .btn:hover{
+	background-color:#DDDDDD;
+}
+.form-inline .nav-item:hover{
+
+	background-color:#DDDDDD;
+	border-radius: 15px;
+	transition:background  0.5s;
+}
+.form-inline .nav-item a{
+	color: #FFFFFF;
+}
+.navbar{
+	background-color:#5BB06C;
+	font-weight: bold;
+}
+/*.navbar-nav{
+	padding-left: 30px;
+}*/
+.navbar-nav li a{
+	color: #FFFFFF;
+	
+}
+.navbar-nav li a:hover{
+	background-color:#DDDDDD;
+	border-radius: 15px;
+	transition:background  0.5s;
+}
+.footer{
+	background-color:#5BB06C;
+}
+
+.logo-bkquiz {
+	width: 50%;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#bg-login{
+	background-image:url('../images/bg_login.png');
+}
+/* .body{
+	background-image:url('../images/bg_login.png');
+} */
+ #bg-landing {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}

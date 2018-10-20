@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BKQUIZ</title>
+	<link rel="stylesheet" href="../css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+	<div class="container">
+		
+		<div class="header">
+			<nav class="navbar navbar-expand-lg" > 
+			    <a class="navbar-brand" href="#">
+			    	<img src="../images/logo.png" class="logo-bkquiz" alt="Cinque Terre" >
+			        
+			    </a>
+			    
+			    <nav aria-label="breadcrumb" class="mr-auto ml-5 mt-1">
+				    <ul class="navbar-nav" > 
+					    <li class="nav-item">
+					      <a class="nav-link" href="#">Home</a>
+					    </li>
+					    <li class="nav-item dropdown">
+						    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Category</a>
+						    <div class="dropdown-menu bg-success">
+						      <a class="dropdown-item" href="#">Anime</a>
+						      <a class="dropdown-item" href="#">Music</a>
+						      <a class="dropdown-item" href="#">Game</a>
+						      <div class="dropdown-divider"></div>
+						      <a class="dropdown-item" href="#">English</a>
+						    </div>
+						</li>
+						<li class="nav-item">
+					      <a class="nav-link" href="#">Contact</a>
+					    </li>
+					    <li class="nav-item">
+					      <a class="nav-link" href="#">Help</a>
+					    </li>
+					</ul>					    
+				</nav>
+	            <form class="form-inline pl-5 my-2 my-lg-0">		
+					<div class="nav-item">
+					    <a class="nav-link" href="homepage-before.html">Logout</a>
+					</div>
+					<a href="register.html">
+						<div  class="btn btn-dark" >Register</div>
+				    </a>
+			    </form>  
+			</nav>
+			
+		</div> <!-- the end header -->
+		
+		
+		<div class="body">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item"><a href="#">Category</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Music</li>
+				</ol>
+			</nav>
+			<div class="row">
+				<div class="col-sm-4 pl-3">
+					<a class="list-group-item list-group-item-success" href="type-detail.html"><h5>Menu</h5></a>
+					<a class="list-group-item list-group-item-action" href="anime-detail.html">Anime</a>
+					<a class="list-group-item list-group-item-action" href="music-detail.html">Music</a>
+					<a class="list-group-item list-group-item-action" href="game-detail.html" >Game</a>
+					<a class="list-group-item list-group-item-action" href="english-detail.html">English</a>
+	  			</div>
+	  		    <div class="col-8">
+		        	<a class="list-group-item list-group-item-success" href="#list-item-1"><h3>Music Quiz</h3></a> 
+		        	<div class="list-group-item list-group-item" >
+			        		<h4>Instructions: </h4>
+			        		<p>Multiple choice is a form of an objective assessment in which respondents are asked to select only correct answers out of the choices from a list.</p>
+			        		<h4>Rules:</h4>
+			        		<p>There are 10 multiple choice questions. Each correct answer you will have 1 point. At the end of quiz your points is based on the number of your correct answers. Good luck !!! </p>
+			        		<h5>Question 1: </h5>
+			        		<p>Who won the 60th Grammy Awards at New York on 28/01/2018? </p>
+	                        <div class="form-check">
+								  <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
+								  <label class="form-check-label" for="exampleRadios1">
+								   Jay Z
+								  </label>
+							</div>
+							<div class="form-check">
+								  <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios2" value="option2">
+								  <label class="form-check-label" for="exampleRadios2">
+								   SZA
+								  </label>
+							</div>
+							<div class="form-check">
+								  <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios3" value="option3">
+								  <label class="form-check-label" for="exampleRadios2">
+								   Bruno Mars
+								  </label>
+							</div>
+							<div class="form-check">
+								  <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios4" value="option4">
+								  <label class="form-check-label" for="exampleRadios2">
+								   Ed Sheeran
+								  </label>
+							</div>
+							<br>
+							<h5>Question 2:</h5>
+			        		<p>Who is the main composer of Despacito? </p>
+	                        <div class="form-check">
+								  <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios5" value="option1" checked>
+								  <label class="form-check-label" for="exampleRadios1">
+								     Daddy Yankee
+								  </label>
+							</div>
+							<div class="form-check">
+								  <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios6" value="option2">
+								  <label class="form-check-label" for="exampleRadios2">
+								    Luis Fonsi
+								  </label>
+							</div>
+							<div class="form-check">
+								  <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios7" value="option3">
+								  <label class="form-check-label" for="exampleRadios2">
+								  Ed Sheeran
+								  </label>
+							</div>
+							<div class="form-check">
+								  <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios8" value="option2">
+								  <label class="form-check-label" for="exampleRadios2">
+								   Taylor Swift
+								  </label>
+							</div>
+							<br><br>
+						<div class="col-sm-4  col align-self-center">
+							<div class="btn-group btn-sm" role="group" aria-label="Basic example">
+								<button type="button" class="btn btn-outline-success">Prev</button>
+								<button type="button" class="btn btn-outline-success">1</button>
+								<button type="button" class="btn btn-outline-success">2</button>
+								<button type="button" class="btn btn-outline-success">3</button>
+								<button type="button" class="btn btn-outline-success">4</button>
+								<button type="button" class="btn btn-outline-success">5</button>
+								<button type="button" class="btn btn-outline-success">Next</button>
+							</div>
+						</div>
+		        	</div>	
+    
+		        </div>
+			</div>
+		</div> <!-- the end body -->
+		
+		
+		<div class="footer">
+			<div class="footer mt-4 p-5">
+				<div class="container text-center">
+					<div class="row">
+						<div class="col-sm-12">
+							<p class="text-white">Contact with us</p>
+							<a href="" class="active text-white">Facebook |</a>
+							<a href="" class="disabled text-white">Twitter |</a>
+							<a href="" class="avtive text-white">Zalo</a>
+						</div>
+					</div>
+				</div>
+			</div> 
+		</div> <!-- the end footer -->
+	</div> <!-- the end container -->
+</body>
+</html>
