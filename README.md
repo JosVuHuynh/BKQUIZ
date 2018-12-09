@@ -1,6 +1,6 @@
 # BKQUIZ :mortar_board:
 
-## Assignment 1 - Đề 11 - DEADLINE : Thứ 3, 16/10/2018.
+## Assignment 1 - Đề 11 - DEADLINE : Thứ 3, 11/10/2018.
 
 ### 1.Yêu cầu 
 
